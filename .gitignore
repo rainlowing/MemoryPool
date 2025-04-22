@@ -1,0 +1,59 @@
+# --- 编译生成文件 ---
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.ilk
+*.pdb
+*.obj
+*.sln
+*.vcxproj*
+*.filters
+*.user
+
+# --- 构建目录 ---
+/build/
+/out/
+/bin/
+/lib/
+/x64/
+/x86/
+/Debug/
+/Release/
+/CMakeFiles/
+
+# --- CMake 生成文件 ---
+CMakeCache.txt
+CMakeLists.txt.user
+cmake_install.cmake
+Makefile
+
+# --- IDE 相关 ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- 日志和临时文件 ---
+*.log
+*.tmp
+*.temp
+
+# --- 依赖目录 ---
+/deps/
+/third_party/
+
+# --- 测试相关 ---
+/test_results/
+/coverage/
+*.gcda
+*.gcno
+
+# --- 文档生成 ---
+/docs/_build/
+/docs/html/
+/docs/latex/
